@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="keywords" content="sleutel, woorden, van, website">
+  <meta name="description" content="Dit is een volwaardige zin waarmee ik de website omschrijf.">
+  <meta name="author" content="jouw naam">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/reset.css" rel="stylesheet" type="text/css" />
+  <link href="css/master.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <script>
+      var myStringArray = ["https://cdn.discordapp.com/attachments/452370117032935425/606893834483400731/67090847_711446052632089_2820729036789725519_n.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/603988969671229470/60648637_380504092563476_9145361699734727998_n.jpg",
+        "https://cdn.discordapp.com/attachments/452370117032935425/603988693992341524/66173325_371635046870703_5863483129246228416_n.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/602423311216934922/62256756_2368761283408911_4410869645448419437_n.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/602423184607674368/65859316_2337621996453005_5741910769412251315_n.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/569133778824593418/56201281_2197975556954838_5383544621407393686_n.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/568528281872105674/57407410_407362956715814_6101380247321159055_n.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/568527398442631179/2024943138103311249_1.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/567633559095869460/1773501992695416338.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/567633552934567937/1453590977657762706.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/563297175124312074/2014474782468230643.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/561677462627418143/42363671_731488057214674_3039253435141884438_n.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/561677329877696515/50818722_298767754055153_2098144220834733047_n.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/543527690251272202/50639558_322859075028550_1696378484178499506_n.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/489148129455898637/40311235_703305743336271_5535026809854949567_n.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/486140620633800704/1590806964388349626.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/485539038896586762/1322638587136942345.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/480061471783387146/1847998203111788115_1.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/466175347868696576/20837713_452683895102036_9134081221549096960_n.jpg", "https://cdn.discordapp.com/attachments/452370117032935425/454323463176323083/32805359_178534816195941_3778753866728734720_n.jpg"
+      ];
+      var arrayLength = myStringArray.length;
+      for (var i = 0; i < arrayLength; i++) {
+        console.log(myStringArray[i]);
+        //Do something
+        document.write('<a href="' + myStringArray[i] + '"><div style="background-image:url('+myStringArray[i]+');width:10%;float:left;margin:2px;padding:8em;object-fit:cover;background-size:cover;background-position:center;"></div> </a>');
+      }
+    </script>
+    
+</body>
+
+</html>
